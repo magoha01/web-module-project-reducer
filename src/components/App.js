@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useReducer } from 'react';
+import reducer, { initialState } from '../reducers';
+
 
 import './App.css';
 
